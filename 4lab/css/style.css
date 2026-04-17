@@ -1,0 +1,43 @@
+body {
+  background: #ffffff;
+  font-family: Arial;
+  margin: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #444;
+}
+
+.grid {
+  border-collapse: collapse;
+  width: 70%;
+  margin-bottom: 25px;
+}
+
+.grid td {
+  border: 2px solid #555;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid tr:nth-child(odd) {
+  background: #f0f0f0;
+}
+
+.warning {
+  color: #b30000;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
